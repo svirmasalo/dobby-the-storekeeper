@@ -4,7 +4,7 @@
  *
  * @package dobby-the-storekeeper
  */
-define( 'DOBBYTS_VERSION', '0.1.0' );
+define( 'DOBBYTS_VERSION', '0.1.5' );
 
 /**
  * Enqueue scripts and styles.
@@ -19,3 +19,15 @@ function dobbyts_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'dobbyts_scripts' );
+
+/**
+* WooCommerce
+*/ 
+
+//WooCommerce support
+add_action( 'after_setup_theme', 'woocommerce_support' );
+
+function woocommerce_support() {
+  add_theme_support( 'woocommerce' );
+}
+
