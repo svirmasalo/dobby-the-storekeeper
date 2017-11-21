@@ -1,0 +1,34 @@
+{
+  "name": "dobby-the-storekeeper",
+  "version": "0.2.0",
+  "description": "Dobby the Storekeeper is a humbe WordPress starter theme with WooCommerce support and tweaks for developing. ",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svirmasalo/dobby-the-storekeeper.git"
+  },
+  "keywords": [
+    "wordpress",
+    "woocommerce"
+  ],
+  "author": "Sampo Virmasalo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/svirmasalo/dobby-the-storekeeper/issues"
+  },
+  "homepage": "https://github.com/svirmasalo/dobby-the-storekeeper#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-watch": "^4.3.11"
+  }
+}
