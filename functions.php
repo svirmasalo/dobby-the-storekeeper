@@ -4,7 +4,7 @@
  *
  * @package dobby-the-storekeeper
  */
-define( 'DOBBYTS_VERSION', '0.2.0' );
+define( 'DOBBYTS_VERSION', '0.2.5' );
 
 /**
  * Enqueue scripts and styles.
@@ -12,10 +12,10 @@ define( 'DOBBYTS_VERSION', '0.2.0' );
 function dobbyts_scripts() {
 
 	// Styles.
-	wp_enqueue_style( 'styles', get_theme_file_uri( "css/global.min.css" ), array(), filemtime( get_theme_file_path( "css/global.min.css" ) ) );
+	wp_enqueue_style( 'styles', get_theme_file_uri( "css/global.min.css" ), array() );
 	// Scripts.
 	wp_enqueue_script( 'jquery-core' );
-	wp_enqueue_script( 'scripts', get_theme_file_uri( 'js/all.js' ), array(), true );
+	wp_enqueue_script( 'scripts', get_theme_file_uri( 'js/all.min.js' ), array(), true );
 
 }
 add_action( 'wp_enqueue_scripts', 'dobbyts_scripts' );

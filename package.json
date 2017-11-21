@@ -1,6 +1,6 @@
 {
   "name": "dobby-the-storekeeper",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "description": "Dobby the Storekeeper is a humbe WordPress starter theme with WooCommerce support and tweaks for developing. ",
   "main": "index.php",
   "scripts": {
@@ -29,6 +29,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.11"
   }
 }
