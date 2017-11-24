@@ -4,7 +4,17 @@
  *
  * @package dobby-the-storekeeper
  */
-define( 'DOBBYTS_VERSION', '0.2.5' );
+define( 'DOBBYTS_VERSION', '0.3.0' );
+
+
+/**
+* Navigation
+*/
+function dobby_navigation() {
+  register_nav_menu('main-menu',__( 'Main Menu', 'dobbyts'));
+}
+add_action( 'init', 'dobby_navigation' );
+
 
 /**
  * Enqueue scripts and styles.

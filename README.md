@@ -7,7 +7,7 @@ WooCommerce version of Dobby, the humble WordPress starter
 * ~~v. 0.1.5 - Added WooCommerce support~~
 * ~~v. 0.2.0 - Gulp; Advanced styling structure basics (SCSS / SASS), prefixes, concats, minifying~~
 * ~~v. 0.2.5 - Gulp; Advanced JavaScript handling~~
-* v. 0.3.0 - WooCommerce template overrides
+* ~~v. 0.3.0 - WooCommerce template overrides~~
 * v. 0.3.5 - Custom WooCommerce rules
 * v. 0.4.0 - Added screenshot (Layout)
 * v. 0.4.5 - Advanced WordPress theme structure
