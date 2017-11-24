@@ -23,4 +23,12 @@ WooCommerce version of Dobby, the humble WordPress starter
 * v. 0.9.5 - Language support
 * v. 1.0.0 - Performance optimization
 
- 
+ ## Release notes
+
+ ### Added following for WooCommerce
+ * Load WooCommerce styles and scripts only when necessary
+ * Extra tab for single product
+ * Function to call login form -modal
+ * Function to call links for user account control
+ * Function for extra cart-link with cart data
+ * Enabled WooCommerce sidebar widget
