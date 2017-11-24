@@ -103,13 +103,13 @@ function dobbyts_add_to_cart_fragment( $fragments ) {
 // User account controls (links)
 function dobbyts_get_uacs(){
   if ( is_user_logged_in() ) { 
-    echo '<a href="'.get_permalink(get_option('WooCommerce_myaccount_page_id')).'" title="'.__('My Account','woocommerce').'">'.pll__('My Account','woocommerce').'</a>'; 
+    echo '<a href="'.get_permalink(get_option('WooCommerce_myaccount_page_id')).'" title="'.__('My Account','woocommerce').'">'.__('My Account','woocommerce').'</a>'; 
     echo '<span>/</span>';
-    echo '<a href="'.wp_logout_url(get_permalink()).'" title="'.pll__('logout','wordpress').'">'.pll__('logout','wordpress').'</a>';
+    echo '<a href="'.wp_logout_url(get_permalink()).'" title="'.__('logout','wordpress').'">'.__('logout','wordpress').'</a>';
   }else{
-    echo '<a data-modal-target="login-form" href="#" title="'.pll__('Login','woocommerce').'">'.pll__('Login','woocommerce').'</a>';
+    echo '<a data-modal-target="login-form" href="#" title="'.__('Login','woocommerce').'">'.__('Login','woocommerce').'</a>';
     echo '&nbsp;/&nbsp;';
-    echo '<a href="'.get_permalink(get_option('WooCommerce_myaccount_page_id')).'" title="'.pll__('Register','woocommerce').'">'.pll__('Register','woocommerce').'</a>';
+    echo '<a href="'.get_permalink(get_option('WooCommerce_myaccount_page_id')).'" title="'.__('Register','woocommerce').'">'.__('Register','woocommerce').'</a>';
   }
 }
 
@@ -144,7 +144,7 @@ function dobbyts_woocommerce_new_tab( $tabs ) {
   // Adds the new tab
   
   $tabs['cadditional_information_tab'] = array(
-    'title'   => pll__( 'Additional information'),
+    'title'   => __( 'Additional information'),
     'priority'  => 11,
     'callback'  => 'dobbyts_woocommerce_new_tab_content'
   );
