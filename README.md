@@ -8,7 +8,7 @@ WooCommerce version of Dobby, the humble WordPress starter
 * ~~v. 0.2.0 - Gulp; Advanced styling structure basics (SCSS / SASS), prefixes, concats, minifying~~
 * ~~v. 0.2.5 - Gulp; Advanced JavaScript handling~~
 * ~~v. 0.3.0 - WooCommerce template overrides~~
-* v. 0.3.5 - Custom WooCommerce rules
+* ~~v. 0.3.5 - Custom WooCommerce rules~~
 * v. 0.4.0 - Added screenshot (Layout)
 * v. 0.4.5 - Advanced WordPress theme structure
 * v. 0.5.0 - ACF Pro support
@@ -32,3 +32,5 @@ WooCommerce version of Dobby, the humble WordPress starter
  * Function to call links for user account control
  * Function for extra cart-link with cart data
  * Enabled WooCommerce sidebar widget
+ * WooCommerce rules moved to ./lib/dts-woocommerce-rules.php
+ * Enable WooCommerce rules only if plugin is active
