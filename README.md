@@ -2,7 +2,7 @@
 WooCommerce version of Dobby, the humble WordPress starter.
 
 ## Screenshot
-![Screenshot of Dobby the Storekeeper](./dobby-the-storekeeper/screenshot.png )
+![Screenshot of Dobby the Storekeeper](https://raw.githubusercontent.com/svirmasalo/dobby-the-storekeeper/master/screenshot.png)
 
 ## Developement plan
 * ~~v. 0.0.1 - initial commit~~
