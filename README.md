@@ -1,5 +1,8 @@
-# Dobby the Storekeeper
-WooCommerce version of Dobby, the humble WordPress starter
+# Dobby the Storekeeper (v. 0.4.0)
+WooCommerce version of Dobby, the humble WordPress starter.
+
+## Screenshot
+![Screenshot of Dobby the Storekeeper](https://github.com/svirmasalo/dobby-the-storekeeper/screenshot.png)
 
 ## Developement plan
 * ~~v. 0.0.1 - initial commit~~
@@ -9,7 +12,7 @@ WooCommerce version of Dobby, the humble WordPress starter
 * ~~v. 0.2.5 - Gulp; Advanced JavaScript handling~~
 * ~~v. 0.3.0 - WooCommerce template overrides~~
 * ~~v. 0.3.5 - Custom WooCommerce rules~~
-* v. 0.4.0 - Added screenshot (Layout)
+* ~~v. 0.4.0 - Added screenshot (Layout)~~
 * v. 0.4.5 - Advanced WordPress theme structure
 * v. 0.5.0 - ACF Pro support
 * v. 0.5.5 - ACF Map partial

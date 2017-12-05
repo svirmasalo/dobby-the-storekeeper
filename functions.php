@@ -4,7 +4,7 @@
  *
  * @package dobby-the-storekeeper
  */
-define( 'DOBBYTS_VERSION', '0.3.5' );
+define( 'DOBBYTS_VERSION', '0.4.0' );
 
 
 /**
