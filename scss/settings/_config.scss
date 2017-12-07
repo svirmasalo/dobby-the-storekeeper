@@ -1,0 +1,10 @@
+/**
+* Settigns for styles
+*/ 
+
+
+/**DIMENSIONS**/
+@mixin PAGE_WIDTH() {
+	width:calc(100% - 1rem);
+	margin:1rem auto;
+}

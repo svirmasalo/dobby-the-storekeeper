@@ -103,11 +103,11 @@ if ( class_exists( 'WooCommerce' ) ) {
 	function dobbyts_get_uacs(){
 	  if ( is_user_logged_in() ) { 
 	    echo '<a href="'.get_permalink(get_option('WooCommerce_myaccount_page_id')).'" title="'.__('My Account','woocommerce').'">'.__('My Account','woocommerce').'</a>'; 
-	    echo '<span>/</span>';
+	    echo '<span> / </span>';
 	    echo '<a href="'.wp_logout_url(get_permalink()).'" title="'.__('logout','wordpress').'">'.__('logout','wordpress').'</a>';
 	  }else{
 	    echo '<a data-modal-target="login-form" href="#" title="'.__('Login','woocommerce').'">'.__('Login','woocommerce').'</a>';
-	    echo '&nbsp;/&nbsp;';
+	    echo ' / ';
 	    echo '<a href="'.get_permalink(get_option('WooCommerce_myaccount_page_id')).'" title="'.__('Register','woocommerce').'">'.__('Register','woocommerce').'</a>';
 	  }
 	}
